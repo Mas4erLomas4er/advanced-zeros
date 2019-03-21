@@ -39,3 +39,5 @@ for ( let i = 1; i < number; i++ ) {
 	sum += Math.floor(number / multiplication);
 }
 return sum;
+
+module.exports = getPrimeFactors;
