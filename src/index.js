@@ -1,3 +1,4 @@
+module.exports = function getZerosCount (number, base) {
 const getPrimeFactors = maxNumber => {
 	let arr = new Set();
 	for ( let i = 2; i < maxNumber+1; i++ ) {
@@ -39,5 +40,4 @@ for ( let i = 1; i < number; i++ ) {
 	sum += Math.floor(number / multiplication);
 }
 return sum;
-
-module.exports = getPrimeFactors;
+}
